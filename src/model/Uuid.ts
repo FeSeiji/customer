@@ -13,4 +13,8 @@ export class Uuid{
     static randomGenerator():Uuid{
         return new Uuid(Uuidv4())
     }
+
+    public getValue():string {
+        return this.value
+    }
 }   

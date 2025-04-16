@@ -1,6 +1,6 @@
 import {Request, Response} from "express"
 import { CustomerRepository } from "../model/repository/CustomerRepository";
-import { Customer } from "../model/customer"; // Adjust the path as needed
+import { Customer } from "../model/Customer"; // Adjust the path as needed
 
 export class CustomerCreate{
 
